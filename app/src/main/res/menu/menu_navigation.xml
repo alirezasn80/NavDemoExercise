@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_person"
+        android:title="person"
+        android:icon="@drawable/icon_person"/>
+
+    <item android:id="@+id/menu_chat"
+        android:title="chat"
+        android:icon="@drawable/icon_chat"/>
+
+    <item android:id="@+id/others"
+        android:title="others">
+        <menu>
+
+            <item android:id="@+id/menu_save"
+                android:title="save"
+                android:icon="@drawable/icon_save"/>
+
+
+            <item android:id="@+id/menu_setting"
+                android:title="settings"
+                android:icon="@drawable/icon_settings"/>
+
+        </menu>
+    </item>
+</menu>
